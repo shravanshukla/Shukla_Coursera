@@ -37,7 +37,59 @@ void main() {
 
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
+  print_array(test,SIZE);
+  print_statistics(test,SIZE);
 
+  sort_array(test,SIZE);
+
+  print_array(test,SIZE);
+  print_statistics(test,SIZE);
+  
 }
 
 /* Add other Implementation File Code Here */
+
+
+ 
+void print_statistics(u8 *inputArray, u8 length){
+
+}
+
+ 
+void print_array(u8 *inputArray, u8 length){
+}
+
+
+
+u8 find_median(u8 *inputArray, u8 length){
+
+  return 0;
+}
+
+
+
+u8 find_mean(u8 *inputArray, u8 length){
+
+  return 0;
+}
+
+
+
+
+u8 find_maximum(u8 *inputArray, u8 length){
+
+  return 0;
+}
+
+
+
+u8 find_minimum(u8 *inputArray, u8 length){
+
+  return 0;
+}
+
+
+
+void sort_array(u8 *inputArray, u8 length){
+}
+
